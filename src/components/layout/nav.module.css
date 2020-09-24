@@ -13,7 +13,7 @@
     justify-Content: space-between;
     align-Items: center;
     flex-Wrap: nowrap;
-    border-Bottom: 1px solid black;
+    /* border-Bottom: 1px solid black; */
 }
 
 .burger {
@@ -52,10 +52,11 @@
     align-items: center;
     flex-wrap: nowrap;
     margin: 0;
-    background-color: lightgray;
+    background-color: white;
     text-transform: uppercase;
     transform: translateX(100%);
-    transition: 1s linear;
+    transition: 0.3s linear;
+    z-index: 1;
 }
 
 .nav_list_active {

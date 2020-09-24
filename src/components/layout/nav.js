@@ -6,9 +6,7 @@ const Nav = () => {
   const [burgerStatus, isOpen] = useState(false)
 
   const handleBurger = () => {
-    console.log("works!")
     isOpen(!burgerStatus)
-    console.log(burgerStatus)
   }
 
   return (
