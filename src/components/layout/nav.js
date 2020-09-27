@@ -12,15 +12,13 @@ const Nav = () => {
   return (
     <nav className={style.nav}>
       <Link to="/" className={style.logo}>
-        Przychodnia <br /> Weterynaryjna
+        Przychodnia <br /> Weterynaryjna{" "}
       </Link>
-
       <button type="button" className={style.burger} onClick={handleBurger}>
-        <div className={style.burger_bar}></div>
-        <div className={style.burger_bar}></div>
-        <div className={style.burger_bar}></div>
+        <div className={style.burger_bar}> </div>{" "}
+        <div className={style.burger_bar}> </div>{" "}
+        <div className={style.burger_bar}> </div>{" "}
       </button>
-
       <ul
         className={`${style.nav_list} ${
           burgerStatus ? style.nav_list_active : ""
@@ -30,52 +28,63 @@ const Nav = () => {
           <Link
             to="/"
             className={style.nav_link}
-            activeStyle={{ color: "white" }}
+            activeStyle={{
+              color: "white",
+              backgroundColor: "#6dbd6b",
+            }}
           >
-            Start
-          </Link>
+            Start{" "}
+          </Link>{" "}
         </li>
-
         <li className={style.nav_item}>
           <Link
             to="/about"
             className={style.nav_link}
-            activeStyle={{ color: "white" }}
+            activeStyle={{
+              color: "white",
+              backgroundColor: "#6dbd6b",
+            }}
           >
-            O nas
-          </Link>
+            O nas{" "}
+          </Link>{" "}
         </li>
-
         <li className={style.nav_item}>
           <Link
-            to="/"
+            to="/gallery"
             className={style.nav_link}
-            activeStyle={{ color: "white" }}
+            activeStyle={{
+              color: "white",
+              backgroundColor: "#6dbd6b",
+            }}
           >
-            Galeria
-          </Link>
+            Galeria{" "}
+          </Link>{" "}
         </li>
-
         <li className={style.nav_item}>
           <Link
-            to="/"
+            to="/news"
             className={style.nav_link}
-            activeStyle={{ color: "white" }}
+            activeStyle={{
+              color: "white",
+              backgroundColor: "#6dbd6b",
+            }}
           >
-            Aktualności
-          </Link>
+            Aktualności{" "}
+          </Link>{" "}
         </li>
-
         <li className={style.nav_item}>
           <Link
-            to="/"
+            to="/contact"
             className={style.nav_link}
-            activeStyle={{ color: "white" }}
+            activeStyle={{
+              color: "white",
+              backgroundColor: "#6dbd6b",
+            }}
           >
-            Kontakt
-          </Link>
-        </li>
-      </ul>
+            Kontakt{" "}
+          </Link>{" "}
+        </li>{" "}
+      </ul>{" "}
     </nav>
   )
 }

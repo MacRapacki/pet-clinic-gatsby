@@ -1,0 +1,33 @@
+.header {
+  height: calc(100vh - 60px);
+  /* margin-top: 60px; */
+  background-image: url('./header2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  /* background-color: violet; */
+}
+
+.background {
+  display: grid;
+  place-items: center;
+}
+
+.welcome {
+  font-size: 26px;
+  color: white;
+  position: absolute;
+  left: 5%;
+  top: 41%;
+  line-height: 3rem;
+}
+
+.part_one {
+  /* font-weight: bold; */
+  font-size: 33px;
+}
+
+.part_two {
+  font-weight: bold;
+  font-size: 52px;
+}

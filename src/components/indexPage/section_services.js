@@ -1,24 +1,12 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import style from "./header.module.css"
 
-const Header = () => {
+import style from "./section_services.module.css"
+
+const SectionServices = () => {
   return (
     <>
-      <header className={style.header}>
-        <p className={style.welcome}>
-          {" "}
-          <span className={style.part_one}>Zapewniamy</span> <br />
-          <span className={style.part_two}>pełen zakres</span> <br />{" "}
-          kompleksowej opieki i usług medycznych
-        </p>
-      </header>
-
       <section className={style.section}>
-        <p className={style.title}>
-          Z przyjemnością oferujemy następujące usługi:
-        </p>
+        <h2>Z przyjemnością oferujemy następujące usługi:</h2>
 
         <div className={style.list_wrapper}>
           <ul className={style.services_list}>
@@ -54,4 +42,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default SectionServices

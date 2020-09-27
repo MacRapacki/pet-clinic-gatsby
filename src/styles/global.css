@@ -13,4 +13,16 @@
 /* VARIABLES  */
 :root {
     --main-color: #6dbd6b;
+    --big-font: 32px;
+    --small-font: 20px;
+}
+
+section {
+    padding: 20px 10px;
+}
+
+h2 {
+    font-size: var(--big-font);
+    text-align: center;
+    padding-bottom: 35px;
 }
