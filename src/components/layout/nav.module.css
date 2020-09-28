@@ -1,6 +1,5 @@
 .nav {
-
-    position: "relative";
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -13,6 +12,7 @@
     justify-Content: space-between;
     align-Items: center;
     flex-Wrap: nowrap;
+    z-index: 1;
     /* border-Bottom: 1px solid black; */
 }
 
@@ -28,12 +28,13 @@
     padding: 5px 15px;
     border: none;
     background-color: transparent;
+
 }
 
 .burger_bar {
     width: 30px;
     height: 4px;
-    background-color: black;
+    background-color: var(--main-color);
     margin: 3px;
     transition: 0.2s linear;
     border-radius: 2px;

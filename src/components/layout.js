@@ -9,20 +9,16 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import Nav from "./layout/nav"
-import "./layout.css"
+import style from "./layout.module.css"
+import Footer from "./layout/footer"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Nav />
-      <main> {children} </main>{" "}
-      <footer
-        style={{
-          height: "15px",
-          width: "100%",
-          backgroundColor: "black",
-        }}
-      ></footer>{" "}
+      <div className={style.wrapper}>
+        <Nav />
+        <main> {children} </main> <Footer />
+      </div>
     </>
   )
 }
