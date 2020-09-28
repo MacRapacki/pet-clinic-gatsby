@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-source-googlemaps-static`,
       options: {
-        key: process.env.AIzaSyBUXv64Y2HvVauYe2llfYoMIcfyljpsFxU,
+        key: 'key',
         center: "54.058387, 19.652609",
       },
     },

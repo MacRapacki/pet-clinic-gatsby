@@ -7,7 +7,6 @@ import Header from "../components/indexPage/header"
 import SectionServices from "../components/indexPage/section_services"
 import SectionAllPets from "../components/indexPage/section_all_pets"
 import SectionContact from "../components/indexPage/section_contact"
-import Location from "../components/indexPage/marker"
 
 const IndexPage = () => (
   <Layout>

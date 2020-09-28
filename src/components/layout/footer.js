@@ -7,8 +7,7 @@ const Footer = () => {
   return (
     <>
       <footer className={style.footer}>
-        <FontAwesomeIcon icon="map-marker-alt" style={{ fontSize: "38px" }} />
-        <FontAwesomeIcon icon="instagram" style={{ fontSize: "38px" }} />
+        <FontAwesomeIcon icon={"facebook"} />
       </footer>
     </>
   )
