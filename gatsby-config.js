@@ -16,8 +16,16 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+
+    {
+      resolve: `gatsby-source-googlemaps-static`,
+      options: {
+        key: process.env.AIzaSyBUXv64Y2HvVauYe2llfYoMIcfyljpsFxU,
+        center: "54.058387, 19.652609",
+      },
+    },
+
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

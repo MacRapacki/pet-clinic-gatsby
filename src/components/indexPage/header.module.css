@@ -1,11 +1,10 @@
 .header {
+  margin-top: 60px;
   height: calc(100vh - 60px);
-  /* margin-top: 60px; */
   background-image: url('./header2.jpg');
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  /* background-color: violet; */
 }
 
 .background {
@@ -23,7 +22,6 @@
 }
 
 .part_one {
-  /* font-weight: bold; */
   font-size: 33px;
 }
 

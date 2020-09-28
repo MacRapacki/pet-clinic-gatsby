@@ -2,9 +2,9 @@
 
 .section {
     position: relative;
-    color: white;
+    color: var(--main-color);
     font-size: var(--big-font);
-    background-color: var(--main-color);
+    background-color: white;
 }
 
 
