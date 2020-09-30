@@ -15,9 +15,25 @@ const Nav = () => {
         Przychodnia <br /> Weterynaryjna{" "}
       </Link>
       <button type="button" className={style.burger} onClick={handleBurger}>
-        <div className={style.burger_bar}> </div>{" "}
-        <div className={style.burger_bar}> </div>{" "}
-        <div className={style.burger_bar}> </div>{" "}
+        <div
+          className={`${style.burger_bar} ${burgerStatus ? style.bar_top : ""}`}
+        >
+          {" "}
+        </div>{" "}
+        <div
+          className={`${style.burger_bar} ${
+            burgerStatus ? style.bar_middle : ""
+          }`}
+        >
+          {" "}
+        </div>{" "}
+        <div
+          className={`${style.burger_bar} ${
+            burgerStatus ? style.bar_bottom : ""
+          }`}
+        >
+          {" "}
+        </div>{" "}
       </button>
       <ul
         className={`${style.nav_list} ${
