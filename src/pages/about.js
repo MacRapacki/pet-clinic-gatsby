@@ -1,18 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
+import SectionAboutClinic from "../components/aboutPage/section_about_clinic"
+import SectionToKnow from "../components/aboutPage/section_to_know"
+import SectionTeam from "../components/aboutPage/section_team"
 
 export default function About() {
   return (
     <Layout>
-      <div
-        style={{
-          color: `teal`,
-        }}
-      >
-        <h1> About Gatsby </h1> <p> Such wow.Very React. </p>{" "}
-      </div>{" "}
-      <Link to="/"> Go to home page </Link>
+      <SectionAboutClinic />
+      <SectionToKnow />
+      <SectionTeam />
     </Layout>
   )
 }
