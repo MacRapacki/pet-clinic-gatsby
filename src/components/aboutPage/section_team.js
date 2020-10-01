@@ -81,7 +81,7 @@ const SectionTeam = () => {
           <div className={style.image_wrapper}>
             <Img fluid={data.member4.childImageSharp.fluid} />
           </div>
-          <p className={style.name}>Klaudia Fifura</p>
+          <p className={style.name}>Klaudia Kowalska</p>
           <p className={style.spec}> Dentysta</p>
         </div>
       </section>{" "}
