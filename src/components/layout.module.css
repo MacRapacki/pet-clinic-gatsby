@@ -1,6 +1,5 @@
 .wrapper {
     position: relative;
-    /* max-width: 360px; */
     display: flex;
     flex-direction: column;
     justify-content: center;

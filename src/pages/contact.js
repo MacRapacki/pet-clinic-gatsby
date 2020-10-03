@@ -1,12 +1,16 @@
 import React from "react"
-import SectionContact from "../components/contactPage/section_contact"
-import Layout from "../components/layout"
 
-const ContactPage = () => (
-  <Layout>
-    {" "}
-    <SectionContact />{" "}
-  </Layout>
-)
+import Layout from "../components/layout"
+import Location from "../components/indexPage/location"
+import ContactInfo from "../components/contactPage/contact_info"
+
+const ContactPage = () => {
+  return (
+    <Layout>
+      <ContactInfo />
+      <Location />
+    </Layout>
+  )
+}
 
 export default ContactPage

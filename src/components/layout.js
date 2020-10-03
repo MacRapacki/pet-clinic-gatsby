@@ -17,8 +17,16 @@ const Layout = ({ children }) => {
     <>
       <div className={style.wrapper}>
         <Nav />
-        <main> {children} </main> <Footer />
-      </div>
+        <main
+          style={{
+            width: "100%",
+          }}
+        >
+          {" "}
+          {children}{" "}
+        </main>{" "}
+        <Footer />
+      </div>{" "}
     </>
   )
 }
