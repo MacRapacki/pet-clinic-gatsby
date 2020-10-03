@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-    padding: 20px 10px;
+    padding: 50px 10px;
     font-size: var(--big-font);
     display: flex;
     flex-direction: column;
@@ -17,4 +17,9 @@
     font-size: var(--small-font);
     margin-top: 20px;
     text-align: center;
+}
+
+.pet_image {
+    border-radius: 10px;
+    margin-bottom: 20px;
 }

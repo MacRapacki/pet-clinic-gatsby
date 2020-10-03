@@ -5,6 +5,8 @@ import style from "./contact_info.module.css"
 
 const ContactInfo = () => {
   return (
+    // section from index page
+
     <section className={style.section}>
       <ContactSection />
     </section>

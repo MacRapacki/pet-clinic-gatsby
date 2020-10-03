@@ -45,7 +45,11 @@ const SectionAllPets = () => {
           gadami.
         </h2>
         <div className={style.wrapper}>
-          <Img fixed={data.rabbit.childImageSharp.fixed} alt="rabbit" />
+          <Img
+            fixed={data.rabbit.childImageSharp.fixed}
+            alt="rabbit"
+            className={style.pet_image}
+          />
           <p className={style.description}>
             Oferujemy leki specjalistyczne dla zwierząt domowych. W mieście,
             które nigdy nie śpi, nasz szpital dotrzymuje kroku Tobie i Twoim
@@ -60,7 +64,11 @@ const SectionAllPets = () => {
         </div>
 
         <div className={style.wrapper}>
-          <Img fixed={data.cow.childImageSharp.fixed} alt="cow" />
+          <Img
+            fixed={data.cow.childImageSharp.fixed}
+            alt="cow"
+            className={style.pet_image}
+          />
           <p className={style.description}>
             Cel naszego zespołu jest prosty: stworzyć i dostarczyć plan
             leczenia, który najlepiej odpowiada potrzebom medycznym Twojego
@@ -73,7 +81,11 @@ const SectionAllPets = () => {
         </div>
 
         <div className={style.wrapper}>
-          <Img fixed={data.cat.childImageSharp.fixed} alt="rabbit" />
+          <Img
+            fixed={data.cat.childImageSharp.fixed}
+            alt="rabbit"
+            className={style.pet_image}
+          />
           <p className={style.description}>
             Dążymy do zapewnienia kompleksowej opieki wysokiej jakości dla
             każdego pacjenta, aby poprawić jego samopoczucie i jakość życia.

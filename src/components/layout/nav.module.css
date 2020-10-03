@@ -13,7 +13,7 @@
   align-items: center;
   flex-wrap: nowrap;
   z-index: 1;
-  /* border-Bottom: 1px solid black; */
+  max-width: 1200px;
 }
 
 .burger {

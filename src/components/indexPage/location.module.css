@@ -16,6 +16,7 @@
     text-transform: uppercase;
     border-radius: 20px;
     text-align: center;
+    transition: 0.2s linear;
 }
 
 .map_Link::after {
@@ -30,4 +31,13 @@
     border: 2px solid white;
     transform: translate(-50%, -50%);
 
+}
+
+.map_Link:hover {
+    background-color: white;
+    color: var(--main-color);
+}
+
+.map_Link:hover::after {
+    border: 2px solid var(--main-color);
 }
