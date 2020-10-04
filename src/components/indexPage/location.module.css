@@ -41,3 +41,18 @@
 .map_Link:hover::after {
     border: 2px solid var(--main-color);
 }
+
+@media screen and (min-width: 768px) {
+
+    .map_Link {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translatey(-50%);
+    }
+
+    .map_Link:hover {
+        background-color: transparent;
+
+    }
+}

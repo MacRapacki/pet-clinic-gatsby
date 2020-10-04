@@ -51,7 +51,7 @@ const SectionTeam = () => {
   return (
     <>
       <section className={style.section}>
-        <h2> Nasz zespół </h2>
+        <h2 className={style.title}> Nasz zespół </h2>
 
         <div className={style.member_wrapper}>
           <div className={style.image_wrapper}>

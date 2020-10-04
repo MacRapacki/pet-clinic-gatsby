@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    min-height: calc(100vh - 100px);
 }
 
 .img_wrapper {
