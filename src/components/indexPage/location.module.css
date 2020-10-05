@@ -1,6 +1,7 @@
 .image_wrapper {
-    width: 100%;
+    max-width: 1200px;
     position: relative;
+    margin: 20px auto;
 }
 
 .map_Link {

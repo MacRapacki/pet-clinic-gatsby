@@ -1,25 +1,58 @@
 .section {
-    color: white;
-    background-color: var(--main-color);
+  color: white;
+  background-color: var(--main-color);
+}
+
+.overlay {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .wrapper {
-    padding: 50px 10px;
-    font-size: var(--big-font);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+  margin: 50px 10px;
+  font-size: var(--big-font);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .description {
-    font-size: var(--small-font);
-    margin-top: 20px;
-    text-align: center;
+  font-size: var(--small-font);
+  margin-top: 20px;
+  text-align: center;
 }
 
 .pet_image {
-    border-radius: 10px;
-    margin-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .wrapper {
+    margin: 50px 10px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .pet_image {
+    width: 30%;
+  }
+
+  .description {
+    width: 60%;
+  }
+
+  .wrapper:nth-child(2) {
+    margin: 50px 10px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 }

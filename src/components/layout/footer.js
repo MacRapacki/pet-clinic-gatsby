@@ -9,21 +9,32 @@ const Footer = () => {
   return (
     <>
       <footer className={style.footer}>
-        <p> Pet Clinic© 2020 </p>{" "}
-        <div className={style.icon_wrapper}>
-          <Link>
-            {" "}
-            <FontAwesomeIcon icon={["fab", "twitter"]} />{" "}
-          </Link>{" "}
-          <Link>
-            {" "}
-            <FontAwesomeIcon icon={["fab", "facebook"]} />{" "}
-          </Link>{" "}
-          <Link>
-            {" "}
-            <FontAwesomeIcon icon={["fab", "instagram"]} />{" "}
-          </Link>{" "}
-        </div>{" "}
+        <div className={style.overlay}>
+          <p> Pet Clinic© 2020 </p>{" "}
+          <div className={style.icon_wrapper}>
+            <Link>
+              {" "}
+              <FontAwesomeIcon
+                className={style.icon}
+                icon={["fab", "twitter"]}
+              />{" "}
+            </Link>{" "}
+            <Link>
+              {" "}
+              <FontAwesomeIcon
+                className={style.icon}
+                icon={["fab", "facebook"]}
+              />{" "}
+            </Link>{" "}
+            <Link>
+              {" "}
+              <FontAwesomeIcon
+                className={style.icon}
+                icon={["fab", "instagram"]}
+              />{" "}
+            </Link>{" "}
+          </div>{" "}
+        </div>
       </footer>{" "}
     </>
   )

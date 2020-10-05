@@ -1,15 +1,17 @@
 module.exports = {
-  pathPrefix: `/pet-clinic-gatsby`,
+  // pathPrefix: `/pet-clinic-gatsby`,
   siteMetadata: {
     title: `Gatsby Default Starter`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,15 +19,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-
-    // {
-    //   resolve: `gatsby-source-googlemaps-static`,
-    //   options: {
-    //     key: 'key',
-    //     center: "54.058387, 19.652609",
-    //   },
-    // },
-
 
     {
       resolve: `gatsby-plugin-manifest`,

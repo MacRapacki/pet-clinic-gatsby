@@ -9,7 +9,7 @@
 
 .description {
     font-size: var(--small-font);
-    margin-top: 20px;
+    margin: 20px 0;
     text-align: center;
 }
 
@@ -18,5 +18,6 @@
     height: 250px;
     border-radius: 50%;
     overflow: hidden;
+    margin: 40px 0;
 
 }

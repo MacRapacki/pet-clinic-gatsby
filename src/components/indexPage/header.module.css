@@ -29,3 +29,42 @@
   font-weight: bold;
   font-size: 52px;
 }
+
+@media (min-width: 768px) {
+
+
+  .welcome_text {
+    font-size: 28px;
+    left: 5%;
+    top: 41%;
+    line-height: 4rem;
+
+  }
+
+  .part_one {
+    font-size: 60px;
+  }
+
+  .part_two {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .welcome_text {
+    font-size: 30px;
+    left: 5%;
+    top: 41%;
+    line-height: 4rem;
+
+  }
+
+  .part_one {
+    font-size: 70px;
+  }
+
+  .part_two {
+    font-size: 90px;
+  }
+}
