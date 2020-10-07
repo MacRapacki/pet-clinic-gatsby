@@ -23,6 +23,7 @@ const SectionAboutClinic = () => {
     <>
       <section className={style.section}>
         <h2
+          style={{ color: "var(--main-color)" }}
           data-sal="slide-down"
           data-sal-easing="ease-out"
           data-sal-duration="500"
@@ -40,12 +41,7 @@ const SectionAboutClinic = () => {
           <Img fluid={data.cat.childImageSharp.fluid} />
         </div>
 
-        <p
-          data-sal="slide-down"
-          data-sal-easing="ease-out"
-          data-sal-duration="500"
-          className={style.description}
-        >
+        <p className={style.description}>
           Psy, koty, ptaki i kieszonkowe zwierzaki - od futra po pióra, z
           radością witamy ich wszystkich Pet Clinic! Nasz szpital weterynaryjny
           służy naszym społecznościom od 1983 roku, zapewniając wysokiej jakości

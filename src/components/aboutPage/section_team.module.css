@@ -1,6 +1,5 @@
 .section {
     margin-top: 60px;
-    color: var(--main-color);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -49,6 +48,7 @@
 
 .title {
     width: 100%;
+    color: var(--main-color);
 }
 
 @media screen and (min-width: 768px) {

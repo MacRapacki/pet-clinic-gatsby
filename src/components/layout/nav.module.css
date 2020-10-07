@@ -62,7 +62,7 @@
   position: fixed;
   top: 60px;
   right: 0;
-  width: 80%;
+  width: 75%;
   height: calc(100vh - 60px);
   list-style: none;
   display: flex;

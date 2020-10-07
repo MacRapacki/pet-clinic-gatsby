@@ -11,7 +11,7 @@ const SectionAllPets = () => {
         childImageSharp {
           # Specify a fixed image and fragment.
           # The default width is 400 pixels
-          fixed(width: 320, height: 250) {
+          fixed(width: 600) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -20,7 +20,7 @@ const SectionAllPets = () => {
         childImageSharp {
           # Specify a fixed image and fragment.
           # The default width is 400 pixels
-          fixed(width: 320, height: 250) {
+          fixed(width: 600) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -29,7 +29,7 @@ const SectionAllPets = () => {
         childImageSharp {
           # Specify a fixed image and fragment.
           # The default width is 400 pixels
-          fixed(width: 320, height: 250) {
+          fixed(width: 600) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -51,17 +51,10 @@ const SectionAllPets = () => {
 
         <div className={style.overlay}>
           {" "}
-          <div
-            data-sal="slide-down"
-            data-sal-easing="ease-out"
-            data-sal-duration="500"
-            className={style.wrapper}
-          >
-            <Img
-              fixed={data.rabbit.childImageSharp.fixed}
-              alt="rabbit"
-              className={style.pet_image}
-            />
+          <div className={style.wrapper}>
+            <div className={style.image_wrapper}>
+              <Img fixed={data.rabbit.childImageSharp.fixed} alt="rabbit" />
+            </div>
             <p className={style.description}>
               Oferujemy leki specjalistyczne dla zwierząt domowych. W mieście,
               które nigdy nie śpi, nasz szpital dotrzymuje kroku Tobie i Twoim
@@ -75,17 +68,10 @@ const SectionAllPets = () => {
               stan Twojego pupila.
             </p>
           </div>
-          <div
-            data-sal="slide-down"
-            data-sal-easing="ease-out"
-            data-sal-duration="500"
-            className={style.wrapper}
-          >
-            <Img
-              fixed={data.cow.childImageSharp.fixed}
-              alt="cow"
-              className={style.pet_image}
-            />
+          <div className={style.wrapper}>
+            <div className={style.image_wrapper}>
+              <Img fixed={data.cow.childImageSharp.fixed} alt="cow" />
+            </div>
             <p className={style.description}>
               Cel naszego zespołu jest prosty: stworzyć i dostarczyć plan
               leczenia, który najlepiej odpowiada potrzebom medycznym Twojego
@@ -96,17 +82,10 @@ const SectionAllPets = () => {
               Twoim zwierzakiem.
             </p>
           </div>
-          <div
-            data-sal="slide-down"
-            data-sal-easing="ease-out"
-            data-sal-duration="500"
-            className={style.wrapper}
-          >
-            <Img
-              fixed={data.cat.childImageSharp.fixed}
-              alt="rabbit"
-              className={style.pet_image}
-            />
+          <div className={style.wrapper}>
+            <div className={style.image_wrapper}>
+              <Img fixed={data.cat.childImageSharp.fixed} alt="rabbit" />
+            </div>
             <p className={style.description}>
               Dążymy do zapewnienia kompleksowej opieki wysokiej jakości dla
               każdego pacjenta, aby poprawić jego samopoczucie i jakość życia.

@@ -1,6 +1,5 @@
 .section {
     background-color: white;
-    color: var(--main-color);
     display: flex;
     flex-direction: row;
     align-items: center;

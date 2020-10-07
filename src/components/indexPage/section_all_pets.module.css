@@ -30,14 +30,22 @@
   text-align: center;
 }
 
-.pet_image {
+.image_wrapper {
+  width: 470px;
+  height: 380px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin: 0 40px;
+  overflow: hidden;
 }
+
+
 
 @media screen and (min-width: 992px) {
   .wrapper {
-    margin: 50px 10px;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -51,7 +59,6 @@
   }
 
   .wrapper:nth-child(2) {
-    margin: 50px 10px;
     flex-direction: row-reverse;
     justify-content: space-between;
   }

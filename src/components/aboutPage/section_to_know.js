@@ -10,19 +10,12 @@ const SectionToKnow = () => {
           data-sal="slide-down"
           data-sal-easing="ease-out"
           data-sal-duration="500"
-          className={style.section}
         >
           {" "}
           Rzeczy, które musisz wiedzieć.{" "}
         </h2>
 
-        <p
-          data-sal="slide-down"
-          data-sal-easing="ease-out"
-          data-sal-duration="500"
-          className={style.section}
-          className={style.description}
-        >
+        <p className={style.description}>
           Zwierzęta domowe mogą uchronić Cię przed samotnością i dać poczucie
           spełnienia. Najlepszą rzeczą, jaką możesz zrobić, aby ich wynagrodzić,
           jest dbanie o nie. Aby zwierzę było szczęśliwe i zdrowe, musisz zabrać
