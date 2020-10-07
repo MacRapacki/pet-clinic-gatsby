@@ -22,13 +22,30 @@ const SectionAboutClinic = () => {
   return (
     <>
       <section className={style.section}>
-        <h2> O naszej klinice </h2>
+        <h2
+          data-sal="slide-down"
+          data-sal-easing="ease-out"
+          data-sal-duration="500"
+        >
+          {" "}
+          O naszej klinice{" "}
+        </h2>
 
-        <div className={style.image_wrapper}>
+        <div
+          data-sal="slide-down"
+          data-sal-easing="ease-out"
+          data-sal-duration="500"
+          className={style.image_wrapper}
+        >
           <Img fluid={data.cat.childImageSharp.fluid} />
         </div>
 
-        <p className={style.description}>
+        <p
+          data-sal="slide-down"
+          data-sal-easing="ease-out"
+          data-sal-duration="500"
+          className={style.description}
+        >
           Psy, koty, ptaki i kieszonkowe zwierzaki - od futra po pióra, z
           radością witamy ich wszystkich Pet Clinic! Nasz szpital weterynaryjny
           służy naszym społecznościom od 1983 roku, zapewniając wysokiej jakości

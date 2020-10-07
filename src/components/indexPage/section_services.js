@@ -11,7 +11,12 @@ const SectionServices = () => {
           Z przyjemnością oferujemy następujące usługi:{" "}
         </h2>
         <div className={style.overlay}>
-          <div className={style.list_wrapper}>
+          <div
+            data-sal="slide-down"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+            className={style.list_wrapper}
+          >
             <ul className={style.services_list}>
               <li> Kompleksowa opieka nad zwierzętami towarzyszącymi </li>{" "}
               <li> Stomatologia i cyfrowe zdjęcia rentgenowskie </li>{" "}
@@ -19,7 +24,12 @@ const SectionServices = () => {
               <li> Poradnictwo dietetyczne i żywieniowe </li>{" "}
             </ul>{" "}
           </div>
-          <div className={style.list_wrapper}>
+          <div
+            data-sal="slide-down"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+            className={style.list_wrapper}
+          >
             <ul className={style.services_list}>
               <li> Lekarstwo na fretki, kieszonkowe zwierzaki i gady </li>{" "}
               <li> Opieka geriatryczna </li> <li> Operacja laserowa </li>{" "}
@@ -27,7 +37,12 @@ const SectionServices = () => {
               <li> Karmy dla zwierząt na receptę </li>{" "}
             </ul>{" "}
           </div>
-          <div className={style.list_wrapper}>
+          <div
+            data-sal="slide-down"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+            className={style.list_wrapper}
+          >
             <ul className={style.services_list}>
               <li> Testy laboratoryjne w domu </li>{" "}
               <li> Pełne usługi chirurgiczne </li> <li> Terapia laserowa </li>{" "}

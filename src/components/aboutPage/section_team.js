@@ -54,7 +54,13 @@ const SectionTeam = () => {
         <h2 className={style.title}> Nasz zespół </h2>
 
         <div className={style.overlay}>
-          <div className={style.member_wrapper}>
+          <div
+            data-sal="slide-down"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+            className={style.section}
+            className={style.member_wrapper}
+          >
             <div className={style.image_wrapper}>
               <Img fluid={data.member1.childImageSharp.fluid} />
             </div>
@@ -62,7 +68,13 @@ const SectionTeam = () => {
             <p className={style.spec}> Lekarz weterynarii</p>
           </div>
 
-          <div className={style.member_wrapper}>
+          <div
+            data-sal="slide-down"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+            className={style.section}
+            className={style.member_wrapper}
+          >
             <div className={style.image_wrapper}>
               <Img fluid={data.member2.childImageSharp.fluid} />
             </div>
@@ -70,7 +82,13 @@ const SectionTeam = () => {
             <p className={style.spec}> Asystent lekarza weterynarii</p>
           </div>
 
-          <div className={style.member_wrapper}>
+          <div
+            data-sal="slide-down"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+            className={style.section}
+            className={style.member_wrapper}
+          >
             <div className={style.image_wrapper}>
               <Img fluid={data.member3.childImageSharp.fluid} />
             </div>
@@ -78,7 +96,13 @@ const SectionTeam = () => {
             <p className={style.spec}> Specjalista od żywienia</p>
           </div>
 
-          <div className={style.member_wrapper}>
+          <div
+            data-sal="slide-down"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+            className={style.section}
+            className={style.member_wrapper}
+          >
             <div className={style.image_wrapper}>
               <Img fluid={data.member4.childImageSharp.fluid} />
             </div>

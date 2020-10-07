@@ -21,7 +21,12 @@ const Location = () => {
 
   return (
     <>
-      <div className={style.image_wrapper}>
+      <div
+        data-sal="fade"
+        data-sal-easing="ease-out"
+        data-sal-duration="500"
+        className={style.image_wrapper}
+      >
         <Img fluid={data.map.childImageSharp.fluid} />
         <a
           href="https://g.page/weterynariapaslek?share"

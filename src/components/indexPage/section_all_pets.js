@@ -40,14 +40,23 @@ const SectionAllPets = () => {
   return (
     <>
       <section className={style.section}>
-        <h2>
+        <h2
+          data-sal="slide-down"
+          data-sal-easing="ease-out"
+          data-sal-duration="500"
+        >
           Opieka profilaktyczna nad wszystkimi zwierzętami, w tym ptakami i
           gadami.
         </h2>
 
         <div className={style.overlay}>
           {" "}
-          <div className={style.wrapper}>
+          <div
+            data-sal="slide-down"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+            className={style.wrapper}
+          >
             <Img
               fixed={data.rabbit.childImageSharp.fixed}
               alt="rabbit"
@@ -66,7 +75,12 @@ const SectionAllPets = () => {
               stan Twojego pupila.
             </p>
           </div>
-          <div className={style.wrapper}>
+          <div
+            data-sal="slide-down"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+            className={style.wrapper}
+          >
             <Img
               fixed={data.cow.childImageSharp.fixed}
               alt="cow"
@@ -82,7 +96,12 @@ const SectionAllPets = () => {
               Twoim zwierzakiem.
             </p>
           </div>
-          <div className={style.wrapper}>
+          <div
+            data-sal="slide-down"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+            className={style.wrapper}
+          >
             <Img
               fixed={data.cat.childImageSharp.fixed}
               alt="rabbit"
