@@ -7,9 +7,11 @@ const ContactInfo = () => {
   return (
     <section className={style.section}>
       <h2 className={style.title}>Skontaktuj się z nami</h2>
-      {/* section from index page */}
-      <ContactSection />
-      <Location />
+      <div className={style.overlay}>
+        {/* section from index page */}
+        <ContactSection />
+        <Location />
+      </div>
     </section>
   )
 }

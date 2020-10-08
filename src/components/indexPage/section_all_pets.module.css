@@ -1,6 +1,10 @@
 .section {
-  color: white;
-  background-color: var(--main-color);
+  /* color: white; */
+  background-color: var(--bgc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .overlay {

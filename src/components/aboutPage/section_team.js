@@ -51,14 +51,21 @@ const SectionTeam = () => {
   return (
     <>
       <section className={style.section}>
-        <h2 className={style.title}> Nasz zespół </h2>
+        <h2
+          data-sal="slide-down"
+          data-sal-easing="ease-out"
+          data-sal-duration="500"
+          className={style.title}
+        >
+          {" "}
+          Nasz zespół{" "}
+        </h2>
 
         <div className={style.overlay}>
           <div
             data-sal="slide-down"
             data-sal-easing="ease-out"
             data-sal-duration="500"
-            className={style.section}
             className={style.member_wrapper}
           >
             <div className={style.image_wrapper}>
@@ -72,7 +79,6 @@ const SectionTeam = () => {
             data-sal="slide-down"
             data-sal-easing="ease-out"
             data-sal-duration="500"
-            className={style.section}
             className={style.member_wrapper}
           >
             <div className={style.image_wrapper}>
@@ -86,7 +92,6 @@ const SectionTeam = () => {
             data-sal="slide-down"
             data-sal-easing="ease-out"
             data-sal-duration="500"
-            className={style.section}
             className={style.member_wrapper}
           >
             <div className={style.image_wrapper}>
@@ -100,7 +105,6 @@ const SectionTeam = () => {
             data-sal="slide-down"
             data-sal-easing="ease-out"
             data-sal-duration="500"
-            className={style.section}
             className={style.member_wrapper}
           >
             <div className={style.image_wrapper}>
