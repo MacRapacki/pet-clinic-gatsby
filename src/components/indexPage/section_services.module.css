@@ -3,7 +3,10 @@
 .section {
     position: relative;
     font-size: var(--big-font);
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 
 }
@@ -33,7 +36,7 @@
 }
 
 .title {
-    width: 100%;
-    display: block;
-    color: var(--main-color);
+    /* width: 100%; */
+    /* display: block; */
+    /* color: var(--main-color); */
 }

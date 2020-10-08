@@ -23,7 +23,7 @@ const SectionAboutClinic = () => {
     <>
       <section className={style.section}>
         <h2
-          style={{ color: "var(--main-color)" }}
+          // style={{ color: "var(--main-color)" }}
           data-sal="slide-down"
           data-sal-easing="ease-out"
           data-sal-duration="500"

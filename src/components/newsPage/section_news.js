@@ -24,37 +24,9 @@ const SectionNews = () => {
         <div className={style.news_wrapper}>
           <div className={style.img_wrapper}>
             <Img fluid={data.member1.childImageSharp.fluid} />{" "}
-          </div>
-          <div className={style.text_wrapper}>
-            <p className={style.title}> Tytuł / nagłówek </p>{" "}
-            <p className={style.news}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Sequi
-              repellat exercitationem corporis laudantium animi, magni ipsum
-              quidem assumenda, architecto excepturi aliquam, eveniet ratione
-              pariatur eaque blanditiis voluptates accusamus quas temporibus.{" "}
-            </p>{" "}
           </div>{" "}
-        </div>
-        <div className={style.news_wrapper}>
-          <div className={style.img_wrapper}>
-            <Img fluid={data.member1.childImageSharp.fluid} />{" "}
-          </div>
           <div className={style.text_wrapper}>
-            <p className={style.title}> Tytuł / nagłówek </p>{" "}
-            <p className={style.news}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Sequi
-              repellat exercitationem corporis laudantium animi, magni ipsum
-              quidem assumenda, architecto excepturi aliquam, eveniet ratione
-              pariatur eaque blanditiis voluptates accusamus quas temporibus.{" "}
-            </p>{" "}
-          </div>{" "}
-        </div>
-        <div className={style.news_wrapper}>
-          <div className={style.img_wrapper}>
-            <Img fluid={data.member1.childImageSharp.fluid} />{" "}
-          </div>
-          <div className={style.text_wrapper}>
-            <p className={style.title}> Tytuł / nagłówek </p>{" "}
+            <h2 className={style.title}> Tytuł / nagłówek </h2>{" "}
             <p className={style.news}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.Sequi
               repellat exercitationem corporis laudantium animi, magni ipsum
@@ -66,9 +38,37 @@ const SectionNews = () => {
         <div className={style.news_wrapper}>
           <div className={style.img_wrapper}>
             <Img fluid={data.member1.childImageSharp.fluid} />{" "}
-          </div>
+          </div>{" "}
           <div className={style.text_wrapper}>
-            <p className={style.title}> Tytuł / nagłówek </p>{" "}
+            <h2 className={style.title}> Tytuł / nagłówek </h2>{" "}
+            <p className={style.news}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Sequi
+              repellat exercitationem corporis laudantium animi, magni ipsum
+              quidem assumenda, architecto excepturi aliquam, eveniet ratione
+              pariatur eaque blanditiis voluptates accusamus quas temporibus.{" "}
+            </p>{" "}
+          </div>{" "}
+        </div>{" "}
+        <div className={style.news_wrapper}>
+          <div className={style.img_wrapper}>
+            <Img fluid={data.member1.childImageSharp.fluid} />{" "}
+          </div>{" "}
+          <div className={style.text_wrapper}>
+            <h2 className={style.title}> Tytuł / nagłówek </h2>{" "}
+            <p className={style.news}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Sequi
+              repellat exercitationem corporis laudantium animi, magni ipsum
+              quidem assumenda, architecto excepturi aliquam, eveniet ratione
+              pariatur eaque blanditiis voluptates accusamus quas temporibus.{" "}
+            </p>{" "}
+          </div>{" "}
+        </div>{" "}
+        <div className={style.news_wrapper}>
+          <div className={style.img_wrapper}>
+            <Img fluid={data.member1.childImageSharp.fluid} />{" "}
+          </div>{" "}
+          <div className={style.text_wrapper}>
+            <h2 className={style.title}> Tytuł / nagłówek </h2>{" "}
             <p className={style.news}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.Sequi
               repellat exercitationem corporis laudantium animi, magni ipsum

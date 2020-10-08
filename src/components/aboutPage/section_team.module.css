@@ -47,8 +47,8 @@
 }
 
 .title {
-    width: 100%;
-    color: var(--main-color);
+    /* width: 100%; */
+    /* color: var(--main-color); */
 }
 
 @media screen and (min-width: 768px) {

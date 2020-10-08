@@ -8,7 +8,8 @@
 }
 
 :root {
-  --main-color: #4fa34f;
+  --main-color: #38aa38;
+  --bgc: rgb(241, 241, 241);
   --big-font: 32px;
   --small-font: 20px;
 }
@@ -19,13 +20,21 @@ section {
   width: 100%;
 }
 
+h1 {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 h2 {
   font-size: var(--big-font);
   text-align: center;
-  padding-bottom: 35px;
+  padding-bottom: 20px;
   max-width: 1000px;
-  margin: 0 auto;
+  margin-bottom: 20px;
   position: relative;
+  border-bottom: 2px solid var(--main-color);
 }
 
 p {

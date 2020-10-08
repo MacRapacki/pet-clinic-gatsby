@@ -1,20 +1,22 @@
 .section {
     min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 .title {
-    color: black;
+    color: var(--main-color);
     margin-top: 30px;
     position: relative;
 }
 
-title::before {
-    position: absolute;
-    content: "";
-    width: 150px;
-    height: 3px;
-    left: 50%;
-    bottom: 32%;
-    transform: translateX(-50%);
-    background-color: var(--main-color);
+.overlay {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
 }

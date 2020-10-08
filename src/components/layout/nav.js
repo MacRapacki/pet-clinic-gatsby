@@ -12,9 +12,12 @@ const Nav = () => {
   return (
     <nav className={style.nav}>
       <div className={style.overlay}>
-        <Link to="/" className={style.logo}>
-          Przychodnia <br /> Weterynaryjna{" "}
-        </Link>
+        <h1>
+          {" "}
+          <Link to="/" className={style.logo}>
+            Przychodnia <br /> Weterynaryjna{" "}
+          </Link>
+        </h1>
         <button type="button" className={style.burger} onClick={handleBurger}>
           <div
             className={`${style.burger_bar} ${
@@ -49,7 +52,7 @@ const Nav = () => {
               className={style.nav_link}
               activeStyle={{
                 color: "white",
-                backgroundColor: "#6dbd6b",
+                backgroundColor: "var(--main-color)",
               }}
             >
               Start{" "}
@@ -61,7 +64,7 @@ const Nav = () => {
               className={style.nav_link}
               activeStyle={{
                 color: "white",
-                backgroundColor: "#6dbd6b",
+                backgroundColor: "var(--main-color)",
               }}
             >
               O nas{" "}
@@ -73,7 +76,7 @@ const Nav = () => {
               className={style.nav_link}
               activeStyle={{
                 color: "white",
-                backgroundColor: "#6dbd6b",
+                backgroundColor: "var(--main-color)",
               }}
             >
               Galeria{" "}
@@ -85,7 +88,7 @@ const Nav = () => {
               className={style.nav_link}
               activeStyle={{
                 color: "white",
-                backgroundColor: "#6dbd6b",
+                backgroundColor: "var(--main-color)",
               }}
             >
               Aktualności{" "}
@@ -97,7 +100,7 @@ const Nav = () => {
               className={style.nav_link}
               activeStyle={{
                 color: "white",
-                backgroundColor: "#6dbd6b",
+                backgroundColor: "var(--main-color)",
               }}
             >
               Kontakt{" "}
