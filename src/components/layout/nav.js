@@ -84,7 +84,7 @@ const Nav = () => {
           </li>
           <li className={style.nav_item}>
             <Link
-              to="/news"
+              to="/newstest"
               className={style.nav_link}
               activeStyle={{
                 color: "white",
