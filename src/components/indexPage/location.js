@@ -27,7 +27,7 @@ const Location = () => {
         data-sal-duration="500"
         className={style.image_wrapper}
       >
-        <Img fluid={data.map.childImageSharp.fluid} />
+        <Img fluid={data.map.childImageSharp.fluid} alt="mapa"/>
         <a
           href="https://g.page/weterynariapaslek?share"
           target="_blank"
