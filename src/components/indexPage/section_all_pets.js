@@ -9,28 +9,28 @@ const SectionAllPets = () => {
     query {
       rabbit: file(relativePath: { eq: "pets/rabbit.jpg" }) {
         childImageSharp {
-          # Specify a fixed image and fragment.
+          # Specify a fluid image and fragment.
           # The default width is 400 pixels
-          fixed(width: 600) {
-            ...GatsbyImageSharpFixed
+          fluid {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       cow: file(relativePath: { eq: "pets/cow.jpg" }) {
         childImageSharp {
-          # Specify a fixed image and fragment.
+          # Specify a fluid image and fragment.
           # The default width is 400 pixels
-          fixed(width: 600) {
-            ...GatsbyImageSharpFixed
+          fluid {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       cat: file(relativePath: { eq: "pets/cat.jpg" }) {
         childImageSharp {
-          # Specify a fixed image and fragment.
+          # Specify a fluid image and fragment.
           # The default width is 400 pixels
-          fixed(width: 600) {
-            ...GatsbyImageSharpFixed
+          fluid {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -53,7 +53,7 @@ const SectionAllPets = () => {
           {" "}
           <div className={style.wrapper}>
             <div className={style.image_wrapper}>
-              <Img fixed={data.rabbit.childImageSharp.fixed} alt="rabbit" />
+              <Img fluid={data.rabbit.childImageSharp.fluid} alt="rabbit" />
             </div>
             <p className={style.description}>
               Oferujemy leki specjalistyczne dla zwierząt domowych. W mieście,
@@ -70,7 +70,7 @@ const SectionAllPets = () => {
           </div>
           <div className={style.wrapper}>
             <div className={style.image_wrapper}>
-              <Img fixed={data.cow.childImageSharp.fixed} alt="cow" />
+              <Img fluid={data.cow.childImageSharp.fluid} alt="cow" />
             </div>
             <p className={style.description}>
               Cel naszego zespołu jest prosty: stworzyć i dostarczyć plan
@@ -84,7 +84,7 @@ const SectionAllPets = () => {
           </div>
           <div className={style.wrapper}>
             <div className={style.image_wrapper}>
-              <Img fixed={data.cat.childImageSharp.fixed} alt="rabbit" />
+              <Img fluid={data.cat.childImageSharp.fluid} alt="rabbit" />
             </div>
             <p className={style.description}>
               Dążymy do zapewnienia kompleksowej opieki wysokiej jakości dla
