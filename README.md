@@ -1,3 +1,24 @@
+# pet-clinic-gatsby
+
+## General info
+This project is a website for pet clinic in Poland. The project was made in gatsby, it hosting by Netlify and it works with DatoCms.
+* [Check this app live](https://macrapacki-petclinic.netlify.app/)
+	
+## Technologies
+- Gatsby
+- CSS -  scc modules
+- GraphQL
+
+- DatoCMS
+- Netlify
+	
+## Setup
+
+
+
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
