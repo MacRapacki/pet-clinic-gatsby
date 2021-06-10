@@ -6,7 +6,7 @@ This project is a website for pet clinic in Poland. The project was made in gats
 	
 ## Technologies
 - Gatsby
-- CSS -  scc modules
+- CSS -  scss modules
 - GraphQL
 
 - DatoCMS
